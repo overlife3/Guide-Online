@@ -1,0 +1,1763 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style/normalize.css">
+	<!-- <link rel="stylesheet" href="./assets/css/itc_slider.css"> -->
+	<!-- <link rel="stylesheet" href="./assets/css/range_input.css"> -->
+	<link rel="stylesheet" href="./style/index.css">
+
+	<title>ГидОнлайн</title>
+</head>
+
+<body>
+	<header class="section"> 
+		<div class="header">
+			<div class="container">
+				<div class="row">
+					<a class="header__logo" href="/"></a>
+					<div class="gr-f">
+						<div class="header__search-line search-line">
+							<input type="text" placeholder="Найти фильм...">
+							<div class="search-logo">
+								<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M15 15L21 21" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="#323232" stroke-width="2"/>
+								</svg>
+							</div>
+						</div>
+						<div class="header__profile">
+							<button class="sign-up btn">Войти</button>
+							<button class="register btn">Регистрация</button>
+						</div>
+					</div>
+					<div class="menu-burger">
+						<span class="line"></span>
+						<span class="line"></span>
+						<span class="line"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header> 
+
+	<div class="side-menu">
+		<div class="side-menu__body">
+			<div class="side-menu__profile">
+				<div class="side-menu__auth">
+					<button class="sign-up btn">Войти</button>
+					<button class="register btn">Регистрация</button>
+				</div>
+				<div class="side-menu__search-line search-line">
+					<input type="text" placeholder="Найти фильм...">
+					<div class="search-logo">
+						<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M15 15L21 21" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="#323232" stroke-width="2"/>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<section class="section new-film-section">
+		<div class="container">
+			<div class="top-display">
+				<div class="container">
+					<h2 class="section-title">Новинки</h2>
+					<div class="display">
+						<div class="card" >
+							<div class="card-body">
+								<div class="poster">
+									<div class="rating-age">+16</div>
+									<div class="card-preview">
+										<div class="side-buttons">
+											<div class="icon show-title" data-title="В избранное">
+												<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+													<title />
+													<g data-name="1" id="_1">
+														<path
+															d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+													</g>
+												</svg>
+											</div>
+											<div class="icon show-title" data-title="Смотреть позже">
+												<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+													<title />
+													<path
+														d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+													<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+												</svg>
+											</div>
+											<div class="icon show-title" data-title="Похожие">
+												<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+													xml:space="preserve">
+													<g>
+														<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+															h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+															M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+															h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+															M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+															v30.327h60.653V60.65z"/>
+													</g>
+												</svg>
+											</div>
+										</div>
+										<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+										<p class="card-preview__info">Боевик, гонки</p>
+									</div>
+		
+		
+									<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+								</div>
+								<div class="card__info">
+									<p class="name">Форсаж 2</p>
+									<p class="year"><span class="rating">2021</span></p>
+								</div>
+								
+							</div>
+		
+						</div><div class="card" >
+							<div class="card-body">
+								<div class="poster">
+									<div class="rating-age">+16</div>
+									<div class="card-preview">
+										<div class="side-buttons">
+											<div class="icon show-title" data-title="В избранное">
+												<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+													<title />
+													<g data-name="1" id="_1">
+														<path
+															d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+													</g>
+												</svg>
+											</div>
+											<div class="icon show-title" data-title="Смотреть позже">
+												<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+													<title />
+													<path
+														d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+													<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+												</svg>
+											</div>
+											<div class="icon show-title" data-title="Похожие">
+												<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+													xml:space="preserve">
+													<g>
+														<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+															h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+															M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+															h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+															M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+															v30.327h60.653V60.65z"/>
+													</g>
+												</svg>
+											</div>
+										</div>
+										<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+										<p class="card-preview__info">Боевик, гонки</p>
+									</div>
+		
+		
+									<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+								</div>
+								<div class="card__info">
+									<p class="name">Форсаж 2</p>
+									<p class="year"><span class="rating">2021</span></p>
+								</div>
+								
+							</div>
+		
+						</div><div class="card" >
+							<div class="card-body">
+								<div class="poster">
+									<div class="rating-age">+16</div>
+									<div class="card-preview">
+										<div class="side-buttons">
+											<div class="icon show-title" data-title="В избранное">
+												<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+													<title />
+													<g data-name="1" id="_1">
+														<path
+															d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+													</g>
+												</svg>
+											</div>
+											<div class="icon show-title" data-title="Смотреть позже">
+												<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+													<title />
+													<path
+														d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+													<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+												</svg>
+											</div>
+											<div class="icon show-title" data-title="Похожие">
+												<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+													xml:space="preserve">
+													<g>
+														<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+															h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+															M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+															h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+															M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+															v30.327h60.653V60.65z"/>
+													</g>
+												</svg>
+											</div>
+										</div>
+										<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+										<p class="card-preview__info">Боевик, гонки</p>
+									</div>
+		
+		
+									<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+								</div>
+								<div class="card__info">
+									<p class="name">Форсаж 2</p>
+									<p class="year"><span class="rating">2021</span></p>
+								</div>
+								
+							</div>
+		
+						</div><div class="card" >
+							<div class="card-body">
+								<div class="poster">
+									<div class="rating-age">+16</div>
+									<div class="card-preview">
+										<div class="side-buttons">
+											<div class="icon show-title" data-title="В избранное">
+												<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+													<title />
+													<g data-name="1" id="_1">
+														<path
+															d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+													</g>
+												</svg>
+											</div>
+											<div class="icon show-title" data-title="Смотреть позже">
+												<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+													<title />
+													<path
+														d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+													<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+												</svg>
+											</div>
+											<div class="icon show-title" data-title="Похожие">
+												<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+													xml:space="preserve">
+													<g>
+														<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+															h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+															M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+															h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+															M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+															v30.327h60.653V60.65z"/>
+													</g>
+												</svg>
+											</div>
+										</div>
+										<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+										<p class="card-preview__info">Боевик, гонки</p>
+									</div>
+		
+		
+									<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+								</div>
+								<div class="card__info">
+									<p class="name">Форсаж 2</p>
+									<p class="year"><span class="rating">2021</span></p>
+								</div>
+								
+							</div>
+		
+						</div><div class="card" >
+							<div class="card-body">
+								<div class="poster">
+									<div class="rating-age">+16</div>
+									<div class="card-preview">
+										<div class="side-buttons">
+											<div class="icon show-title" data-title="В избранное">
+												<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+													<title />
+													<g data-name="1" id="_1">
+														<path
+															d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+													</g>
+												</svg>
+											</div>
+											<div class="icon show-title" data-title="Смотреть позже">
+												<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+													<title />
+													<path
+														d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+													<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+												</svg>
+											</div>
+											<div class="icon show-title" data-title="Похожие">
+												<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+													xml:space="preserve">
+													<g>
+														<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+															h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+															M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+															h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+															M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+															v30.327h60.653V60.65z"/>
+													</g>
+												</svg>
+											</div>
+										</div>
+										<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+										<p class="card-preview__info">Боевик, гонки</p>
+									</div>
+		
+		
+									<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+								</div>
+								<div class="card__info">
+									<p class="name">Форсаж 2</p>
+									<p class="year"><span class="rating">2021</span></p>
+								</div>
+								
+							</div>
+		
+						</div><div class="card" >
+							<div class="card-body">
+								<div class="poster">
+									<div class="rating-age">+16</div>
+									<div class="card-preview">
+										<div class="side-buttons">
+											<div class="icon show-title" data-title="В избранное">
+												<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+													<title />
+													<g data-name="1" id="_1">
+														<path
+															d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+													</g>
+												</svg>
+											</div>
+											<div class="icon show-title" data-title="Смотреть позже">
+												<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+													<title />
+													<path
+														d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+													<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+												</svg>
+											</div>
+											<div class="icon show-title" data-title="Похожие">
+												<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+													xml:space="preserve">
+													<g>
+														<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+															h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+															M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+															h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+															M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+															v30.327h60.653V60.65z"/>
+													</g>
+												</svg>
+											</div>
+										</div>
+										<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+										<p class="card-preview__info">Боевик, гонки</p>
+									</div>
+		
+		
+									<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+								</div>
+								<div class="card__info">
+									<p class="name">Форсаж 2</p>
+									<p class="year"><span class="rating">2021</span></p>
+								</div>
+								
+							</div>
+		
+						</div><div class="card" >
+							<div class="card-body">
+								<div class="poster">
+									<div class="rating-age">+16</div>
+									<div class="card-preview">
+										<div class="side-buttons">
+											<div class="icon show-title" data-title="В избранное">
+												<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+													<title />
+													<g data-name="1" id="_1">
+														<path
+															d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+													</g>
+												</svg>
+											</div>
+											<div class="icon show-title" data-title="Смотреть позже">
+												<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+													<title />
+													<path
+														d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+													<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+												</svg>
+											</div>
+											<div class="icon show-title" data-title="Похожие">
+												<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+													xml:space="preserve">
+													<g>
+														<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+															h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+															M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+															h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+															M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+															v30.327h60.653V60.65z"/>
+													</g>
+												</svg>
+											</div>
+										</div>
+										<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+										<p class="card-preview__info">Боевик, гонки</p>
+									</div>
+		
+		
+									<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+								</div>
+								<div class="card__info">
+									<p class="name">Форсаж 2</p>
+									<p class="year"><span class="rating">2021</span></p>
+								</div>
+								
+							</div>
+		
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+ <section class="section search-section">
+		<div class="container">
+			<h1 class="section-title">Найди себе фильм</h1>
+			<div class="choose-movie">
+				<form action="get" class="form-fields">
+					<div class="form-block">
+						<p>Жанр</p>
+						<input type="text" placeholder="...">
+					</div>
+					<div class="form-block" >
+						<p>Страна</p>
+						<input type="text" placeholder="...">
+					</div>
+					<div class="form-block" >
+						<p>Актер в главной роли</p>
+						<input type="text" placeholder="...">
+					</div>
+					<div class="form-block">
+						<p>Год премьеры</p>
+						<input type="text" placeholder="...">
+					</div>
+					<div class="form-block" placeholder="...">
+						<p>Рейтинг</p>
+						<input type="text" placeholder="...">
+					</div>
+					<div class="form-block" placeholder="...">
+						<p>Найти фильм</p>
+						<button type="submit" class="btn">
+							Поиск
+						</button>
+					</div>
+				</form>
+				<div class="drop-down-block">
+
+					<div class="drop-down-block__block">
+						<h3 class="drop-down-block__block_title block-title">Жанр</h3>
+						<div class="block__list">
+							<div class="block__column">
+								<span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span>
+							</div>
+							<div class="block__column">
+								<span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span>
+							</div>
+							<div class="block__column">
+								<span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span><span>Катастрофа</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="drop-down-block__block">
+						<h3 class="drop-down-block__block_title block-title">Страна</h3>
+						<div class="block__column">
+							<span>Мексика</span><span>Мексика</span><span>Мексика</span><span>Мексика</span><span>Мексика</span><span>Мексика</span><span>Мексика</span><span>Мексика</span><span>Мексика</span><span>Мексика</span><span>Мексика</span><span>Мексика</span>
+						</div>
+					</div>
+
+					<div class="drop-down-block__block">
+						<h3 class="drop-down-block__block_title block-title">Актер</h3>
+						<div class="block__column">
+							<span>Пол Уокер</span><span>Пол Уокер</span><span>Пол Уокер</span><span>Пол Уокер</span><span>Пол Уокер</span><span>Пол Уокер</span><span>Пол Уокер</span><span>Пол Уокер</span><span>Пол Уокер</span><span>Пол Уокер</span><span>Пол Уокер</span><span>Пол Уокер</span>
+						</div>
+					</div>
+
+					<div class="gr-f">
+						<div class="drop-down-block__block">
+							<h3 class="drop-down-block__block_title block-title">Года премьеры</h3>
+							<div class="range-input">
+								<div class="skeleton">range-input</div>
+							</div>
+						</div>
+	
+						<div class="drop-down-block__block">
+							<h3 class="drop-down-block__block_title block-title">Рейтинг</h3>
+							<div class="range-input">
+								<div class="skeleton">range-input</div>
+							</div>
+						</div>
+					</div>
+
+				</div> 
+			</div>
+		</div>
+	</section>   
+
+	<section class="section recommendation-section">
+		<div class="container">
+			<h2 class="section-title">Мы рекомендуем</h2>
+			<div class="display">
+				<div class="card" >
+					<div class="card-body">
+						<div class="poster">
+							<div class="rating-age">+16</div>
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon show-title" data-title="В избранное">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon show-title" data-title="Смотреть позже">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon show-title" data-title="Похожие">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+							<div class="rating-age">+16</div>
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon show-title" data-title="В избранное">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon show-title" data-title="Смотреть позже">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon show-title" data-title="Похожие">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+							<div class="rating-age">+16</div>
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon show-title" data-title="В избранное">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon show-title" data-title="Смотреть позже">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon show-title" data-title="Похожие">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+							<div class="rating-age">+16</div>
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon show-title" data-title="В избранное">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon show-title" data-title="Смотреть позже">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon show-title" data-title="Похожие">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+							<div class="rating-age">+16</div>
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon show-title" data-title="В избранное">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon show-title" data-title="Смотреть позже">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon show-title" data-title="Похожие">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+							<div class="rating-age">+16</div>
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon show-title" data-title="В избранное">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon show-title" data-title="Смотреть позже">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon show-title" data-title="Похожие">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+							<div class="rating-age">+16</div>
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon show-title" data-title="В избранное">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon show-title" data-title="Смотреть позже">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon show-title" data-title="Похожие">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</section> 
+	
+	<section class="section other-section">
+		<div class="container">
+			<h2 class="section-title">Другое</h2>
+			<div class="main-display">
+				<div class="card" >
+					<div class="card-body">
+						<div class="poster">
+
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+					<div class="rating-age">+16</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+					<div class="rating-age">+16</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+					<div class="rating-age">+16</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+					<div class="rating-age">+16</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+					<div class="rating-age">+16</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+					<div class="rating-age">+16</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+					<div class="rating-age">+16</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+					<div class="rating-age">+16</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+					<div class="rating-age">+16</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+					<div class="rating-age">+16</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+					<div class="rating-age">+16</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+					<div class="rating-age">+16</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+					<div class="rating-age">+16</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+					<div class="rating-age">+16</div>
+
+				</div><div class="card" >
+					<div class="card-body">
+						<div class="poster">
+
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+					<div class="rating-age">+16</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- <div class="card" >
+					<div class="card-body">
+						<div class="poster">
+							<div class="rating-age">+16</div>
+							<div class="card-preview">
+								<div class="side-buttons">
+									<div class="icon show-title" data-title="В избранное">
+										<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<g data-name="1" id="_1">
+												<path
+													d="M393,450a14.92,14.92,0,0,1-7.46-2L257,374.29,128.46,448A15,15,0,0,1,106,435V63a15,15,0,0,1,15-15H393a15,15,0,0,1,15,15V435a15,15,0,0,1-15,15ZM257,342a14.92,14.92,0,0,1,7.46,2L378,409.1V78H136V409.1L249.54,344A14.92,14.92,0,0,1,257,342Z" />
+											</g>
+										</svg>
+									</div>
+									<div class="icon show-title" data-title="Смотреть позже">
+										<svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+											<title />
+											<path
+												d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z" />
+											<path d="M90,61H67V38a3,3,0,0,0-6,0V61H38a3,3,0,0,0,0,6H61V90a3,3,0,0,0,6,0V67H90a3,3,0,0,0,0-6Z" />
+										</svg>
+									</div>
+									<div class="icon show-title" data-title="Похожие">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 485.211 485.21" style="enable-background:new 0 0 485.211 485.21;"
+											xml:space="preserve">
+											<g>
+												<path d="M333.586,242.605l-181.958,90.979V151.627L333.586,242.605z M485.211,30.326v424.56H0V30.326H485.211z M303.255,90.977
+													h60.653V60.65h-60.653V90.977z M212.282,90.977h60.65V60.65h-60.65V90.977z M121.304,90.977h60.651V60.65h-60.651V90.977z
+													M30.327,90.977h60.651V60.65H30.327V90.977z M90.978,394.236H30.327v30.322h60.651V394.236z M181.955,394.236h-60.651v30.322
+													h60.651V394.236z M272.933,394.236h-60.65v30.322h60.65V394.236z M363.908,394.236h-60.653v30.322h60.653V394.236z
+													M454.889,394.236h-60.653v30.322h60.653V394.236z M454.889,121.303H30.327v242.602h424.562V121.303z M454.889,60.65h-60.653
+													v30.327h60.653V60.65z"/>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<p class="card-preview__info">Рейтинг <span class="rating">7.2</span></p>
+								<p class="card-preview__info">Боевик, гонки</p>
+							</div>
+
+
+							<img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/x1000" alt="Постер к фильму">							
+						</div>
+						<div class="card__info">
+							<p class="name">Форсаж 2</p>
+							<p class="year"><span class="rating">2021</span></p>
+						</div>
+						
+					</div>
+
+				</div> -->
+
+	<script src="./assets/js/itc_slider.js" defer></script>
+	<script src="./assets/js/range_input.js"></script>
+</body>
+</html>
